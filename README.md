@@ -25,7 +25,7 @@
 
 **Файл** [`04-deployment-init.yaml`](/04-deployment-init.yaml)  
 
-![3](https://github.com/ANDREYTOLOGY/k8s-hw/blob/main/img/k8s-5.png)      
+![3](https://github.com/ANDREYTOLOGY/k8s-hw/blob/main/img/k8s2-5.png)      
  
 
 На скриншоте продемонстрирована работа `Init Container`: после пересоздания `Deployment Pod` находится в состоянии `0/1 Init:0/1`, а после применения `Service app-service` успешно переходит в `1/1 Running`.
